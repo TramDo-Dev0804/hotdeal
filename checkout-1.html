@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <title>Hot Deal: Cùng mua chung theo nhóm, mua deal khuyến mãi giá rẻ</title>
+    <script src="assets/bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css?v=1.0.02" />
+    <link rel="stylesheet" href="assets/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/js/owlCarousel/owl.carousel.css" />
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+</head>
+
+<body class="body-checkout">
+    <div class="wrap-header">
+        <div class="top-content">
+            <div class="container">
+                <div class="header-top d-flex justify-content-end">
+                    <div class="login">
+                        <ul>
+                            <li><a href=""><i class="far fa-user"></i> Đăng ký</a></li>
+                            <li><a href="">Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-header-mobile">
+        <div class="top-header-mobile">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-3">
+                        <span class="icon-nav-header" onclick="openNav()"><i class="fas fa-bars"></i></span>
+                    </div>
+                    <div class="col-6 text-center">
+                        <a href="index.html" class="logo mx-auto">
+                            <img src="assets/images/logo.png" alt="" class="">
+                        </a>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="box__title text-uppercase d-block d-sm-none pb-2 position-relative pt-3">
+                            <span> Địa chỉ giao hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-checkout">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 m-none">
+                    <a href="index.html" class="logo mx-auto">
+                        <img src="assets/images/logo.png" alt="" class="">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <ol class="steps">
+                        <li class="step is-active" data-step="1">
+                            <span> Giỏ hàng</span>
+                        </li>
+                        <li class="step" data-step="2">
+                            <span>Thông Tin Giao Hàng</span>
+                        </li>
+                        <li class="step" data-step="3">
+                            <span>Thanh Toán</span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-checkout">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 content-checkout-main">
+                    <div class="box">
+                        <div class="table-checkout">
+                            <table>
+                                <thead class="table-title">
+                                    <tr>
+                                        <th scope="col">
+                                            <div>Sản phẩm trong giỏ hàng: <span class="quantity-shoppingcart">3</span>
+                                            </div>
+                                        </th scope="col">
+                                        <th width="16%" class="m-none">
+                                            <span>Đơn giá</span>
+                                        </th>
+                                        <th scope="col" width="16%" class="m-none">
+                                            <span>Số lượng</span>
+                                        </th>
+                                        <th width="16%" class="m-none">
+                                            <span>Thành tiền</span>
+                                        </th>
+                                        <th scope="col" width="1%">
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="info-item-cart">
+                                        <th scope="row">
+                                            <div class="d-flex">
+                                                <div class="img-item-cart">
+                                                    <img src="assets/images/deal1.jpg" alt="">
+                                                </div>
+                                                <div class="name-item-cart">
+                                                    <h6 class="mb-0">
+                                                        Coca Restaurant – Set Lunch 5 Món Thái Cao Cấp Dành Cho 02 Người
+                                                    </h6>
+                                                    <span class="text-muted d-block">
+                                                        Mã SP: 363142
+                                                    </span>
+                                                    <strong class="price-item-cart d-block d-sm-none">99,000 đ</strong>
+                                                    <input type="number" name="quantity-item-cart"
+                                                        class="quantity-item-cart d-block d-sm-none" min="1" max="40"
+                                                        placeholder="1">
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td class="m-none">
+                                            <strong>99,000 đ</strong>
+                                        </td>
+                                        <td class="m-none">
+                                            <strong>
+                                                <input type="number" name="quantity-item-cart"
+                                                    class="quantity-item-cart" min="1" max="40" placeholder="1">
+                                            </strong>
+                                        </td>
+                                        <td class="m-none">
+                                            <span>99,000 đ</span>
+                                        </td>
+                                        <td>
+                                            <span><a href="#" class="delete"><i class="fa fa-trash"></i></a></span>
+                                        </td>
+                                    </tr>
+                                    <tr class="info-item-cart">
+                                        <th scope="row">
+                                            <div class="d-flex">
+                                                <div class="img-item-cart">
+                                                    <img src="assets/images/amthuc8.jpg" alt="">
+                                                </div>
+                                                <div class="name-item-cart">
+                                                    <h6 class="mb-0">
+                                                        Happy Thai – Tri Ân Khách Hàng Giảm Sốc 30% Với Các Món Ngon Trứ
+                                                        Danh Xứ Sở Chùa Vàng
+                                                    </h6>
+                                                    <span class="text-muted d-block">
+                                                        Mã SP: 363142
+                                                    </span>
+                                                    <strong class="price-item-cart d-block d-sm-none">99,000 đ</strong>
+                                                    <input type="number" name="quantity-item-cart"
+                                                        class="quantity-item-cart d-block d-sm-none" min="1" max="40"
+                                                        placeholder="1">
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td class="m-none">
+                                            <strong>99,000 đ</strong>
+                                        </td>
+                                        <td class="m-none">
+                                            <strong>
+                                                <input type="number" name="quantity-item-cart"
+                                                    class="quantity-item-cart" min="1" max="40" placeholder="1">
+                                            </strong>
+                                        </td>
+                                        <td class="m-none">
+                                            <span>99,000 đ</span>
+                                        </td>
+                                        <td>
+                                            <span><a href="#" class="delete"><i class="fa fa-trash"></i></a></span>
+                                        </td>
+                                    </tr>
+                                    <tr class="info-item-cart">
+                                        <th scope="row">
+                                            <div class="d-flex">
+                                                <div class="img-item-cart">
+                                                    <img src="assets/images/amthuc3.jpg" alt="">
+                                                </div>
+                                                <div class="name-item-cart">
+                                                    <h6 class="mb-0">
+                                                        Set Menu Hải Sản, Bò Phô Mai Và Lẩu Tứ Xuyên Ngon Tuyệt Cho 2 -
+                                                        4 Người Tại Barbecue Garden
+                                                    </h6>
+                                                    <span class="text-muted d-block">
+                                                        Mã SP: 363142
+                                                    </span>
+                                                    <strong class="price-item-cart d-block d-sm-none">99,000 đ</strong>
+                                                    <input type="number" name="quantity-item-cart"
+                                                        class="quantity-item-cart d-block d-sm-none" min="1" max="40"
+                                                        placeholder="1">
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td class="m-none">
+                                            <strong>99,000 đ</strong>
+                                        </td>
+                                        <td class="m-none">
+                                            <strong>
+                                                <input type="number" name="quantity-item-cart"
+                                                    class="quantity-item-cart" min="1" max="40" placeholder="1">
+                                            </strong>
+                                        </td>
+                                        <td class="m-none">
+                                            <span>99,000 đ</span>
+                                        </td>
+                                        <td>
+                                            <span><a href="#" class="delete"><i class="fa fa-trash"></i></a></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="box-footer d-flex align-items-center justify-content-between m-none">
+                            <a href="product.html" class="btn-come-back"><i class="fas fa-long-arrow-alt-left "></i>
+                                Tiếp tục mua hàng</a>
+                            <a href="checkout-2.html" id="main-button">
+                                <button class="btn btn-next-success btn-lg" name="submit">
+                                    ĐẶT HÀNG
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 content-checkout-right">
+                    <div class="box">
+                        <div class="box-header">
+                            <div class="box-title">Thông tin chung</div>
+                        </div>
+                        <div class="box-body">
+                            <ul class="order-summary">
+                                <li class="d-flex justify-content-between"><span class="text-muted">Tổng sản phẩm</span>
+                                    <span>3</span>
+                                </li>
+                                <li class="d-flex justify-content-between"><span class="text-muted">Tổng tạm tính
+                                    </span>
+                                    <span>580,000 đ</span>
+                                </li>
+                                <li class="d-flex justify-content-between"><span class="text-muted">Phí giao hàng
+                                        (?)</span>
+                                    <span></span>
+                                </li>
+                                <hr>
+                                <li class="total d-flex justify-content-between align-items-center">
+                                    <span class="text-total">Tổng cộng</span>
+                                    <span class="total-price">835,000 đ</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box-footer">
+                            <div class="payment-voucher m-none">
+                                <img src="assets/images/icon-phone.png" alt="">
+                                Khi thanh toán trực tuyến (bằng thẻ ATM hoặc Visa/Master) khách hàng sẽ nhận được
+                                E-voucher qua tin nhắn SMS / Email để sử dụng ngay.
+                            </div>
+                            <div class="d-block d-sm-none text-center order-mobile">
+                                <a href="checkout-2.html" id="main-button">
+                                    <button class="btn btn-next-success btn-lg" name="submit">
+                                        ĐẶT HÀNG
+                                    </button>
+                                </a>
+                                <a href="product.html" class="btn-come-back"><i class="fas fa-long-arrow-alt-left "></i>
+                                    Tiếp tục mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-header-mobile">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="top-menu-mobile">
+                <div class="local-top">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-map-marker-alt"></i> Hồ Chí Minh
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#"> <i class="fas fa-map-marker-alt"></i>Hồ Chí
+                                Minh</a>
+                            <a class="dropdown-item" href="#"> <i class="fas fa-map-marker-alt"></i>Hà Nội</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-map-marker-alt"></i>Tỉnh thành
+                                khác</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="login d-flex align-items-center mt-2">
+                    <div class="avatar-user">
+                        <i class="far fa-user-circle"></i>
+                    </div>
+                    <ul>
+                        <li><a href=""> Đăng ký</a></li>
+                        <li><a href="">Đăng nhập</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="menu-category">
+                <li class="active"><a href="product.html"><span class=" icon-red"><i
+                                class="fas fa-fire icon-menu-left"></i></span>Khuyến
+                        mãi hot <i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li class="active"><a href="product.html"><span class="icon-green-1"><i
+                                class="far fa-star icon-menu-left "></i></span>Deal
+                        nổi bật <i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <hr>
+                <li><a href="product.html"><span class="icon-green-2"><i
+                                class="fas fa-utensils icon-menu-left "></i></span>Ẩm
+                        thực
+                        <i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-pink"><i class="fas fa-spa icon-menu-left "></i></span>Spa
+                        & Làm
+                        đẹp <i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-light-orange"><i
+                                class="fas fa-film icon-menu-left"></i></span>Giải
+                        trí
+                        & Thể thao <i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-light-red"><i
+                                class="fas fa-hot-tub icon-menu-left"></i></span>Massage
+                        nam nữ<i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-violet"><i
+                                class="fas fa-user-tie icon-menu-left"></i></span>Đào
+                        tạo<i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-dark-blue"><i
+                                class="fas fa-hospital icon-menu-left"></i></span>Bệnh
+                        viện - Phòng khám<i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-blue"><i
+                                class="fas fa-utensils icon-menu-left"></i></span>Buffet<i
+                            class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-milk-orange"><i
+                                class="fas fa-tooth icon-menu-left"></i></span>Nha
+                        khoa<i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-green-3"><i
+                                class="fas fa-suitcase icon-menu-left"></i></span>Tour<i
+                            class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-blue-2"><i
+                                class="fas fa-hotel icon-menu-left"></i></span>Hotel &
+                        Resort<i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-black"><i
+                                class="fas fa-dollar-sign icon-menu-left"></i></i></span>Thẻ
+                        quà tặng - chiết khấu cao<i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <li><a href="product.html"><span class="icon-violet-2"><i
+                                class="fas fa-ticket-alt icon-menu-left"></i></span>Vé
+                        sự
+                        kiện<i class="fas fa-angle-right icon-menu-right"></i></a></li>
+                <!-- <hr> -->
+            </ul>
+            <div class="hotline">
+                <button class="w-100 text-center button-hotline">HOTLINE <span>1900 6760</span></button>
+            </div>
+            <div class="bantin">
+                <input type="text" placeholder="Đăng ký nhận bản tin miễn phí">
+                <a href="product.html"><i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 pl-0">
+                        Công ty CP Hotdeal - 52/2 Thoại Ngọc Hầu, Phường Hòa Thạnh, Quận Tân Phú, TP.HCM <br>
+                        Mã số thuế: 0310955176 do Sở Kế hoạch đầu tư TP HCM cấp ngày 29/06/2011<br>
+                        ĐT: (028) 7300 5757 - Email: kinhdoanh@hotdeal.vn<br>
+                    </div>
+                    <div class="col-md-2 icon-dangky-cong-thuong"><a href="" class="mx-auto" target="_parent"><img
+                                src="assets/images/logo-dangky.png"></a></div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="button-smart-pay">
+        <a href="" target="_blank">
+            <img src="assets/images/shopee-icon.png" class="w-100">
+        </a>
+    </div>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/time.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/owlCarousel/owl.carousel.js"></script>
+    <script src="assets/js/function.js"></script>
+    <script src="assets/js/page.js"></script>
+</body>
+
+</html>
